@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> === Exemplo Função === </title>
+</head>
+<body>
+<script>
+   function correr(vel,acel,pos_a,pos_b)
+   {
+     if ((vel + acel) > 0 )
+     {
+         pos_b = pos_a + vel + ((acel*acel)/ 2);
+     }else
+     {
+         pos_b = pos_a;
+     }
+   }
+   function  somar(x,y)
+   {
+       var resultado = x + y;
+       console.log(resultado);
+   }
+</script>
+<button onclick="somar(2,3)"></button>
+</body>
+</html>
