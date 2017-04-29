@@ -1,0 +1,8 @@
+@charset "UTF-8";
+#quadrado
+{
+    background-color: #0099FF;
+    width:90px;
+    height:90px;
+    cursor: pointer;
+}

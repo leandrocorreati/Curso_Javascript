@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>=== Treino 06 - Obtendo Data e Hora pt2 </title>
+    <script type="text/javascript">
+        var data = new Date(); // Criado objeto 'data' da classe Date.
+
+        var dia_mes = data.getDate(); // Pega o número do dia do mês(1-31)
+        var dia_semana =  data.getDay(); // De número do dia da semana(o-6), 0 é domingo, 1 é segunda, 2 é terça ...
+        var mes = data.getMonth(); // Obtém o número do mês(0-11)
+        var ano2 = data.getYear(); // Pega o ano com seus dois digitos.
+        var ano4 = data.getFullYear(); //Pega o ano completo com seus 4 digitos.
+        var hora = data.getHours(); // Obtém as horas(0-23)
+        var min = data.getMinutes(); // Obtém os minutos
+        var seg = data.getSeconds(); // Obtém os segundos(0-59).
+        var mseg = data.getMilliseconds(); // Obtém 0-999
+        var tz = data.getTimezoneOffset(); // Em minutos.
+    </script>
+</head>
+<body>
+
+</body>
+</html>
